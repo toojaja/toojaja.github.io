@@ -11,7 +11,7 @@
             font-size: 10px;
             color: #000000;
             line-height: 12px;
-            text-align: center;
+            text-align: left;
         }
 
         iframe {
@@ -22,70 +22,102 @@
             text-decoration: none;
             color: #000000;
         }
+
+        hr {
+            border: 1px solid #EAECEE;
+        }
+
+        a:hover {
+            background-color: #7FFFD4;
+        }
+
+        div.value {
+            min-width: 100px;
+            background-color: gray;
+        }
+
+        div.container {
+            border-top: 0px solid #cccccc;
+            background-color: #ffffff;
+        }
+
+        div.first_row {
+            margin: 0px;
+        }
+
+        span {
+            display: inline-block;
+            width: 100px;
+            margin: 0px;
+            padding: 0px;
+            padding-top: 5px;
+            border: 0px solid black;
+        }
     </style>
 </head>
 
 <body>
 
     <div style="border-right: 1px solid black; 
-        height: 100%; width: 250px;float: left;
+        height: 100%; width: 100%; float: left;
         margin-right:1%;">
         <h1>
             Circly Hands
         </h1>
-        <p style="font-weight: 900;margin-top:25px;">Projects</p>
-        <a href="geekbench5.html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;Geekbench 5 Average</p>
-        </a>
-        <a href="daily.html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;Naver Photo</p>
-        </a>
-        <a href="cnn_latest.html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;CNN Latest Headlines</p>
-        </a>
-        <a href="melon.html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;Melon Chart</p>
-        </a>
-        <a href="mlbpark.html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;MLBPark Popular Posts</p>
-        </a>
 
-        <p style="font-weight: 900;margin-top:25px;">Python Codes</p>
-        <a href="secret.html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;Geekbench 5 Average</p>
-        </a>
+        <p style="font-weight: 900;margin-top:25px;"></p>
+        <p style="font-weight: 900;margin-top:5px;"></p>
 
-        <p style="font-weight: 900;margin-top:25px;">Laptop Specs</p>
-        <a href="specs/HP 250 G7-15S40ES.html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;
-                HP 250 G7</p>
-        </a>
-        <a href="specs/Acer Spin 5 SP513-54N-79EY (Spin 5 Series).html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;
-                Acer Spin 5 SP513</p>
-        </a>
-        <a href="specs/Lenovo Yoga Slim 7-14ARE (Yoga Slim Series).html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;
-                Lenovo Yoga Slim 7</p>
-        </a>
-        <a href="specs/Lenovo ThinkPad X1 Carbon G7 20R1-000YUS.html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;
-                Lenovo ThinkPad X1 Carbon</p>
-        </a>
-        <a href="specs/Lenovo ThinkPad E14 Gen2-20T7S00W00 (ThinkPad E14 Gen2 Series).html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;
-                Lenovo ThinkPad E14 Gen2</p>
-        </a>
-        <a href="specs/Lenovo ThinkPad E15 20RD0011GE (ThinkPad E15 Series).html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;
-                Lenovo ThinkPad E15</p>
-        </a>
-        <a href="specs/Lenovo ThinkPad T490-20N3S02L00 (ThinkPad T490 Series).html" target="iframe_body">
-            <p>&nbsp;&nbsp;&nbsp;
-                Lenovo ThinkPad T490</p>
-        </a>
+        <table>
 
+            <div class="first_row"><b> <span>Brand</span> <span>CPU</span> <span>Single</span> <span>Multi</span> Multi
+                    - Bar Graph </b></div>
+            <div class="container"> <span>INTEL</span> <span>10980HK</span> <span>1260.0</span> <span>7410.0</span>
+                <progress max=7410.0 value=7410.0></progress> </div>
+            <div class="container"> <span>AMD</span> <span>4900HS</span> <span>1137.0</span> <span>7075.0</span>
+                <progress max=7410.0 value=7075.0></progress> </div>
+            <div class="container"> <span>AMD</span> <span>4800H</span> <span>1110.0</span> <span>6643.0</span>
+                <progress max=7410.0 value=6643.0></progress> </div>
+            <div class="container"> <span>AMD</span> <span>4800U</span> <span>1071.0</span> <span>5966.0</span>
+                <progress max=7410.0 value=5966.0></progress> </div>
+            <div class="container"> <span>INTEL</span> <span>10750H</span> <span>1152.0</span> <span>5608.0</span>
+                <progress max=7410.0 value=5608.0></progress> </div>
+            <div class="container"> <span>AMD</span> <span>4750U</span> <span>1042.0</span> <span>5586.0</span>
+                <progress max=7410.0 value=5586.0></progress> </div>
+            <div class="container"> <span>INTEL</span> <span>9600K</span> <span>1184.0</span> <span>5546.0</span>
+                <progress max=7410.0 value=5546.0></progress> </div>
+            <div class="container"> <span>INTEL</span> <span>9750H</span> <span>1047.0</span> <span>5042.0</span>
+                <progress max=7410.0 value=5042.0></progress> </div>
+            <div class="container"> <span>AMD</span> <span>4600H</span> <span>969.0</span> <span>4905.0</span> <progress
+                    max=7410.0 value=4905.0></progress> </div>
+            <div class="container"> <span>AMD</span> <span>4700U</span> <span>958.0</span> <span>4667.0</span> <progress
+                    max=7410.0 value=4667.0></progress> </div>
+            <div class="container"> <span>INTEL</span> <span>6700K</span> <span>1097.0</span> <span>4301.0</span>
+                <progress max=7410.0 value=4301.0></progress> </div>
+            <div class="container"> <span>INTEL</span> <span>10300H</span> <span>1060.0</span> <span>3770.0</span>
+                <progress max=7410.0 value=3770.0></progress> </div>
+            <div class="container"> <span>AMD</span> <span>4500U</span> <span>919.0</span> <span>3698.0</span> <progress
+                    max=7410.0 value=3698.0></progress> </div>
+            <div class="container"> <span>INTEL</span> <span>10510U</span> <span>1058.0</span> <span>3355.0</span>
+                <progress max=7410.0 value=3355.0></progress> </div>
+            <div class="container"> <span>AMD</span> <span>4300U</span> <span>938.0</span> <span>2969.0</span> <progress
+                    max=7410.0 value=2969.0></progress> </div>
+            <div class="container"> <span>INTEL</span> <span>1035G1</span> <span>1026.0</span> <span>2961.0</span>
+                <progress max=7410.0 value=2961.0></progress> </div>
+            <div class="container"> <span>INTEL</span> <span>8265U</span> <span>888.0</span> <span>2788.0</span>
+                <progress max=7410.0 value=2788.0></progress> </div>
+            <div class="container"> <span>AMD</span> <span>3500U</span> <span>738.0</span> <span>2525.0</span> <progress
+                    max=7410.0 value=2525.0></progress> </div>
+            <div class="container"> <span>INTEL</span> <span>1005G1</span> <span>1006.0</span> <span>2064.0</span>
+                <progress max=7410.0 value=2064.0></progress> </div>
+            <div class="container"> <span>INTEL</span> <span>6100.0</span> <span>882.0</span> <span>1876.0</span>
+                <progress max=7410.0 value=1876.0></progress> </div>
+            <div class="container"> <span>AMD</span> <span>3200U</span> <span>663.0</span> <span>1377.0</span> <progress
+                    max=7410.0 value=1377.0></progress> </div>
+            <div class="container"> <span>INTEL</span> <span>4210M</span> <span>681.0</span> <span>1370.0</span>
+                <progress max=7410.0 value=1370.0></progress> </div>
 
+        </table>
 
 
 
